@@ -1,0 +1,38 @@
+[core]
+    editor = vim
+[push]
+    default = simple
+[color]
+    ui = true
+[color "branch"]
+    current = yellow reverse
+    local   = yellow
+    remote  = green
+[color "diff"]
+    meta       = yellow bold
+    frag       = magenta bold
+    old        = red bold
+    new        = green bold
+    whitespace = red reverse
+[color "status"]
+    added     = green bold
+    changed   = yellow bold
+    untracked = red bold
+[alias]
+    aa   = add .
+    b    = branch
+    ci   = commit
+    cia  = commit --amend
+    cian = commit --amend --no-edit
+    cim  = commit -m
+    co   = checkout
+    cob  = checkout -b
+    d    = diff
+    ds   = diff --staged
+    f    = fetch
+    fs   = !git fetch && git status
+    fpl  = !git fetch && git pull
+    m    = merge
+    pl   = pull
+    ps   = push
+    s    = status
