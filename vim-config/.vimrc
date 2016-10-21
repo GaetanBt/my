@@ -33,7 +33,6 @@ call pathogen#infect()
 
 
 " Colorscheme settings
-set background=dark
 colorscheme darcula
 
 
