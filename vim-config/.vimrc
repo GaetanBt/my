@@ -33,7 +33,7 @@ call pathogen#infect()
 
 
 " Colorscheme settings
-colorscheme darcula
+colorscheme Tomorrow-Night
 
 
 " Show line number
