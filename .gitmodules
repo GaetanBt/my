@@ -1,0 +1,6 @@
+[submodule "vim-config/.vim/bundle/emmet-vim"]
+	path = vim-config/.vim/bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
+[submodule "vim-config/.vim/bundle/vim-tomorrow-theme"]
+	path = vim-config/.vim/bundle/vim-tomorrow-theme
+	url = https://github.com/chriskempson/vim-tomorrow-theme.git
