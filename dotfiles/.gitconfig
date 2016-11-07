@@ -33,7 +33,9 @@
     f    = fetch
     fs   = !git fetch && git status
     fpl  = !git fetch && git pull
+    l    = log
     m    = merge
     pl   = pull
     ps   = push
+    rl   = reflog
     s    = status
